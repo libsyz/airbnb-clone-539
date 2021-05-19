@@ -8,7 +8,7 @@
 
 apartment_one = Apartment.create(
   name: "Beautiful apartment next to the shore",
-  description: "Do not miss this Beautiful apartment, it's absolutely great"
+  description: "Do not miss this Beautiful apartment, it's absolutely great",
   address: Faker::Address.street_address,
   image_urls: ["https://images.pexels.com/photos/6312354/pexels-photo-6312354.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
                "https://images.pexels.com/photos/5824491/pexels-photo-5824491.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"]
