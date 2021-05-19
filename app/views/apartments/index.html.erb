@@ -1,0 +1,5 @@
+<h1 class="mb-5">Discover some great apartments in Singapore</h1>
+
+<% @apartments.each do |apartment| %>
+  <%= render partial: 'card_apartment', locals: { apartment: apartment }  %>
+<% end %>
